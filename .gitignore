@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+build/
+dist/
+
+# Database & Sensitive
+.env
+*.sqlite
+server/database.sqlite
+
+# OS Files
+.DS_Store
+Thumbs.db

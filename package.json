@@ -1,0 +1,10 @@
+{
+  "name": "event-nexus",
+  "version": "1.0.0",
+  "description": "Event Nexus Root",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "npm run server & npm run client"
+  }
+}
