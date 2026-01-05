@@ -122,7 +122,7 @@ const AdminDashboard = () => {
             </Card>
           </Col>
           <Col md={3}>
-            <Card className="border-0 shadow-sm rounded-4 bg-dark p-4 h-100 position-relative">
+            <Card className="border-0 shadow-sm rounded-4 bg-secondary  p-4 h-100 position-relative">
               <div className="d-flex justify-content-between align-items-center mb-2">
                 <div>
                   <small className="opacity-75">Total Revenue</small>

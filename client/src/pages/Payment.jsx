@@ -88,8 +88,8 @@ const Payment = () => {
               >
                 <Tab eventKey="upi" title={<span><Smartphone size={18} className="me-2" /> UPI</span>}>
                   <div className="py-3 text-center">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo.png/800px-UPI-Logo.png" 
-                      alt="UPI" style={{ height: '40px' }} className="mb-4" />
+                    {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo.png/800px-UPI-Logo.png" 
+                      alt="UPI" style={{ height: '40px' }} className="mb-4" /> */}
                     <Form.Group className="mb-4">
                       <Form.Label className="small fw-bold d-block text-start">Enter UPI ID</Form.Label>
                       <Form.Control placeholder="username@bank" className="bg-light py-2" />
